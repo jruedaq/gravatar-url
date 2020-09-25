@@ -32,7 +32,6 @@ class GetGravatar
     public static function getUrl(string $username, string $email, int $size = 24): string
     {
         $obj = new GetGravatar($username, $email, $size);
-        var_dump($obj->generateDefaultImage());
         return "https://www.gravatar.com/avatar/" . md5(strtolower(trim($obj->email))) . "?d=" . urlencode($obj->generateDefaultImage()) . "&s=" . $obj->size;
     }
 
