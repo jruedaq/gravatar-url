@@ -2,7 +2,7 @@
   "name": "jruedaq/gravatar-url",
   "type": "library",
   "keywords": ["gravatar","default","profile","image", "username", "text"],
-  "description": "Get Gravatar image URL and put by default an image with username initials",
+  "description": "Get Gravatar image URL and put by default an image with username initials, You can test this library here https://gravatar-url.herokuapp.com/examples/LibraryUse.php",
   "license": "MIT",
   "authors": [
     {
