@@ -1,3 +1,10 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/jruedaq/gravatar-url)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/JRUEDAQ/gravatar-url)
+![Packagist Downloads](https://img.shields.io/packagist/dt/jruedaq/gravatar-url)
+![Packagist License](https://img.shields.io/packagist/l/jruedaq/gravatar-url)
+![Packagist Version](https://img.shields.io/packagist/v/jruedaq/gravatar-url)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/jruedaq/gravatar-url)
+
 # GravatarUrl
 This is a method for the get gravatar image most easily and, this library have a
 feature, if in gravatar no exists an image for user email returns default image with 
