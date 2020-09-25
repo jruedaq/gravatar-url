@@ -7,8 +7,6 @@ $name = $_POST["user"] ?? "Example User";
 $email = $_POST["email"] ?? "example@example.com";
 
 $imageUrl = GetGravatar::getUrl($name, $email, 230);
-
-var_dump($imageUrl);
 ?>
 <img src="<?php echo $imageUrl; ?>" alt="profile image">
 
