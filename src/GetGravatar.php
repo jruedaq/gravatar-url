@@ -6,9 +6,9 @@ namespace jruedaq\GravatarUrl;
 
 class GetGravatar
 {
-    private string $username;
-    private string $email;
-    private int $size;
+    private $username;
+    private $email;
+    private $size;
 
     /**
      * GetGravatar constructor.

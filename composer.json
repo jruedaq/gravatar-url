@@ -17,7 +17,7 @@
     "issues":"https://github.com/jruedaq/GravatrUrl/issues"
   },
   "require": {
-    "php": ">=7.4"
+    "php": ">=7.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.3"
