@@ -6,8 +6,17 @@ namespace jruedaq\GravatarUrl;
 
 class GetGravatar
 {
+    /**
+     * @var string $username
+     */
     private $username;
+    /**
+     * @var string $email
+     */
     private $email;
+    /**
+     * @var int $size
+     */
     private $size;
 
     /**
@@ -41,7 +50,8 @@ class GetGravatar
     private function generateDefaultImage(): string
     {
         $color = $this->generateDefaultColor();
-        return "https://ui-avatars.com/api/$this->username/$this->size/$color/fff";
+        $user = strtr($this->username, [" " => "+"]);
+        return "https://ui-avatars.com/api/$user/$this->size/$color/fff";
     }
 
     /**
