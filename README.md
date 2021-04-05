@@ -17,7 +17,7 @@ You can test example in this link (https://gravatar-url.herokuapp.com/examples/L
 
 ## Installation
 ```shell script
-$ composer require jruedaq/gravatr-url
+$ composer require jruedaq/gravatar-url
 ```
 
 ## Basic use
